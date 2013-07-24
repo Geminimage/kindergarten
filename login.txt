@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mpres/htmledition/style/wxm2_login169eab.css"/>
+  <!--<link rel="stylesheet" type="text/css" href="/src/htdocs/htmledition/style/wxm_login_new.css"/>-->
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mpres/htmledition/style/wxm_ie.css"/>
+  <![endif]-->
+  <title>公众平台登录</title>
+</head>
+<body>
+<div id="header">
+  <div class="wrapper">
+    <a href="/" class="dib"><img src="https://res.wx.qq.com/mpres/htmledition/images/new/logo15def7.png"/></a>
+    <span class="hd_login_info">
+    <span>第一次使用公众平台？</span><a href="/cgi-bin/readtemplate?t=wxm2-realname-reg&lang=zh_CN">立即注册</a>
+    </span>
+  </div>
+</div>
+<div id="banner">
+  <div class="wrapper">
+    <div class="login-panel">
+
+      <!--<span class="arrow"></span>-->
+      <h3>登录</h3>
+      
+<div class="login-mod">
+  <div class="login-err-panel dn" id="err_area">
+    <span class="icon-wrapper"><i class="icon24-login err" style="margin-top:-.2em;*margin-top:0;"></i></span><span id="err_tips"></span>
+  </div>
+
+  <form class="login-form" id="login-form">
+    <div class="login-un">
+      <span class="icon-wrapper"><i class="icon24-login un"></i></span>
+      <input type="text" id="account" placeholder="邮箱/微信号/QQ号"/>
+    </div>
+    <div class="login-pwd">
+      <span class="icon-wrapper"><i class="icon24-login pwd"></i></span>
+      <input type="password" id="password" placeholder="密码"/>
+    </div>
+  </form>
+
+  <div class="login-code-panel dn" id="verify_area">
+    <input type="text" id="verify"/>
+    <span class="icon-wrapper"><img id="imgVerify" src=""/></span>
+    <a class="login-change-code" href="javascript:;" id="changeimg_link">换一张</a>
+  </div>
+
+  <div class="login-help-panel">
+    <a  class="login-forget-pwd" href="/cgi-bin/readtemplate?t=wxm2-find-pwd&lang=zh_CN">忘记密码？</a>
+    <a id="rememberPwd" class="login-remember-pwd" href="javascript:;"><i id="rememberPwdIcon" class="icon24-login checkbox checkbox_checked"></i>记住帐号</a>
+  </div>
+
+  <div class="login-btn-panel">
+    <a class="login-btn" title="点击登录" href="javascript:;" id="login_button">登录</a>
+  </div>
+</div>
+    </div>
+    <dl class="qrcode-panel">
+      <dt><img src="https://res.wx.qq.com/mpres/htmledition/images//mp_qrcode15def7.png"/></dt>
+      <dd style="font-size:12px">
+        微信扫描，<br/>
+        以添加微信公众平台      </dd>
+    </dl>
+  </div>
+</div>
+<div id="contain">
+  <div class="wrapper">
+    
+    <!-- 功能模块 -->
+    <div class="mp_fnc_mod">
+      <dl class="mp_fnc">
+        <dt class="mp_fnc_hd">
+          <span class="icon_wrapper"><i class="icon_mp_fnc maxcode"></i></span>
+          <h4 class="mp_fnc_t">二维码添加</h4>
+        </dt>
+        <dd class="mp_fnc_bd">
+          <p class="mp_fnc_c">
+            通过发布公众号二维码<br/>让微信用户随手添加          </p>
+        </dd>
+      </dl>
+      <dl class="mp_fnc">
+        <dt class="mp_fnc_hd">
+          <span class="icon_wrapper"><i class="icon_mp_fnc msg"></i></span>
+        <h4 class="mp_fnc_t">自动回复</h4>
+        </dt>
+        <dd class="mp_fnc_bd">
+          <p class="mp_fnc_c">
+            通过设置规则或编程开发<br/>自动回复消息，为用户提供服务          </p>
+        </dd>
+      </dl>
+      <dl class="mp_fnc">
+        <dt class="mp_fnc_hd">
+          <span class="icon_wrapper"><i class="icon_mp_fnc trans"></i></span>
+        <h4 class="mp_fnc_t">群发消息</h4>
+        </dt>
+        <dd class="mp_fnc_bd">
+          <p class="mp_fnc_c">
+            通过一对多地发送消息<br/>实现信息传递和品牌传播          </p>
+        </dd>
+      </dl>
+      <!--<dl class="mp_fnc">-->
+        <!--<dt class="mp_fnc_hd">-->
+          <!--<span class="icon_wrapper"><i class="icon_mp_fnc brand"></i></span>-->
+          <!--<h4 class="mp_fnc_t">品牌传播</h4>-->
+        <!--</dt>-->
+        <!--<dd class="mp_fnc_bd">-->
+          <!--<p class="mp_fnc_c">-->
+            <!--借助个人关注页和朋友圈，<br/>实现品牌的病毒式传播-->
+          <!--</p>-->
+        <!--</dd>-->
+      <!--</dl>-->
+      <dl class="mp_fnc" style="width:100%;height:0;overflow:hidden;font-size:0;"></dl>
+    </div>
+
+    <!-- 案例模块 -->
+    <div class="mp_case_mod">
+      <div class="mp_case_mod_hd">
+      <h3 class="mp_case_mod_t">成功案例</h3>
+      </div>
+      <div class="mp_case_mod_bd">
+        <ul class="mp_case_list">
+          <li class="mp_case_item" name="zshyh" id="case_0">
+            <span class="icon_wrapper"><i class="icon_mp_case zsyh"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+          <li class="mp_case_item" name="nfhk" id="case_1">
+            <span class="icon_wrapper"><i class="icon_mp_case nfhk"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+           <li class="mp_case_item" name="gdlt" id="case_2">
+            <span class="icon_wrapper"><i class="icon_mp_case gdlt"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+           <li class="mp_case_item" name="qxxz" id="case_3">
+            <span class="icon_wrapper"><i class="icon_mp_case qxxz"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+          <li class="mp_case_item" name="yxbj" id="case_4" style="margin-right:0px;">
+            <span class="icon_wrapper"><i class="icon_mp_case yxbj"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+          
+         
+         
+          
+        <!-- <li class="mp_case_item" name="xijqr" id="case_5">
+            <span class="icon_wrapper"><i class="icon_mp_case xijqr"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+           <li class="mp_case_item" name="sgyyzs" id="case_6">
+            <span class="icon_wrapper"><i class="icon_mp_case sgyyzs"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>
+          <li class="mp_case_item" name="wxlk" id="case_7">
+            <span class="icon_wrapper"><i class="icon_mp_case wxlk"></i></span>
+            <h4 class="mp_case_t"></h4>
+          </li>-->
+        </ul>
+        <div class="default_wrapper mp_case_desc group">
+          <div class="mp_case_desc_c">
+            <img id="case_img_left" src="https://res.wx.qq.com/mpres/htmledition/images/new/case_detail/yxbj_l15def7.jpg" alt="" class="mp_case_desc_img">
+            <img id="case_img_right" src="https://res.wx.qq.com/mpres/htmledition/images/new/case_detail/yxbj_r15def7.jpg" alt="" class="mp_case_desc_img extra">
+            <p class="mp_case_desc_text">
+              <strong id="case_title"></strong>
+              <br/>
+              <span id="case_desc"></span>
+            </p>
+            </div>
+            <span class="arrow" id="case_arrow"><i class="arrow_out"></i><i class="arrow_in"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+    <span>
+      <a target="_blank" href="http://www.tencent.com/zh-cn/index.shtml">关于腾讯</a>&nbsp;|&nbsp;
+      <a target="_blank" href="/cgi-bin/readtemplate?t=wxm-agreement&amp;type=info&amp;lang=zh_CN">服务协议</a>&nbsp;|&nbsp;
+      <a target="_blank" href="http://kf.qq.com/special_auto/weixin.html">客服中心</a>
+    </span>
+  <span>Copyright&nbsp;? 2012-2013 Tencent. All Rights Reserved.</span>
+</div>
+<script type="text/javascript" src="https://res.wx.qq.com/mpres/zh_CN/htmledition/js/jquery-1.7.2.min15def8.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/mpres/zh_CN/htmledition/js/jquery.md515def8.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/mpres/zh_CN/htmledition/js/wxm2-loginform15def8.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/mpres/zh_CN/htmledition/js/wxm-core16aa22.js"></script>
+
+<script type="text/javascript">
+  (function (jQ) {
+    var loginForm = jQ("#login-form"),
+        account$ = jQ("#account");
+
+    var cookie_acct = WXM.Helpers.getCookie("remember_acct");
+    if ( cookie_acct === undefined ){
+      jQ("#rememberPwdIcon").removeClass("checkbox_checked");
+    }else if(cookie_acct.length) {
+      account$.attr("value", WXM.Helpers.getCookie("remember_acct"));
+    }
+
+    account$
+        .focus(function () {
+          loginForm.addClass("login_on_un");
+        })
+        .blur(function () {
+          loginForm.removeClass("login_on_un");
+        });
+    jQ("#password")
+        .focus(function () {
+          loginForm.addClass("login_on_pwd");
+        })
+        .blur(function () {
+          loginForm.removeClass("login_on_pwd");
+        });
+    jQ("#rememberPwd").click(function () {
+      var icon = jQ("#rememberPwdIcon");
+      if (icon.hasClass("checkbox_checked")) {
+        icon.removeClass("checkbox_checked");
+      } else {
+        icon.addClass("checkbox_checked");
+      }
+    });
+
+
+    var _loginForm = createLoginForm({
+      target:'#login-form', //'<div></div>'
+      //html     : '<Above>',
+
+      selector:{
+        account:'#account',
+        password:'#password',
+        verify:'#verify',
+        verifyArea:'#verify_area',
+        verifyImg:'#imgVerify',
+        changeImgLink:'#changeimg_link',
+        loginBtn:'#login_button',
+        rememberAcct: '#rememberPwdIcon',
+        errorArea:'#err_area',
+        error:'#err_tips'
+      }
+
+    });
+
+    WXM.Event.notify('WXM:init:finish');
+    setTimeout(function () {
+      account$.focus();
+    }, 10);
+  })(jQuery);
+</script>
+<script type="text/javascript">
+
+  if(location.host.indexOf("dev")<0){
+    if(location.protocol.indexOf("https")<0){location.href=location.href.replace(/http/i, "https");}
+  }
+
+  var case_tips_len = 5;
+  var case_tips = {
+    'yxbj': {'title': '我的印象笔记', 'desc': '你可以绑定自己的印象笔记帐号，并将重要的微信消息或者网页内容保存到自己的印象笔记中。'},
+    'zshyh': {'title': '招行信用卡', 'desc': '如果你是持卡人，可快捷查询信用卡账单、额度及积分；快速还款、申请账单分期；微信转接人工服务；信用卡消费，微信免费笔笔提醒。如果不是持卡人，可以微信办卡！'},
+    'qxxz': {'title': '骑行西藏', 'desc': '自定义菜单，提供更加清楚的支持导航服务，将公众号的消息更好的归类和整理。'},
+    'gdlt': {'title': '广东联通', 'desc': '你可以在微信里绑定手机号、积分流量，套餐余量、手机上网流量，微信专属流量查询，客服咨询。'},
+    'nfhk': {'title': '南方航空', 'desc': '你可以办理值机手续，挑选座位，查询航班信息，查询目的地城市天气，并为明珠会员提供专业的服务。'},
+    'xijqr': {'title': '小i机器人', 'desc': '你可以和小i机器人语音聊天，查询机票、火车票，还可以问天气、回答问题等。'},
+    'sgyyzs': {'title': '搜狗语音助手', 'desc': '你可以向搜狗语音助手咨询生活信息。包括：语音聊天，点歌功能，天气查询，问路，问菜谱等等。'},
+    'wxlk': {'title': '微信路况', 'desc': '你可以实时查询路况信息功能，为出行提供便利，同时提供电子狗语音提醒功能。'}
+  }; 
+
+(function(jQ){
+  jQ(".mp_case_item").hover(
+    function(){
+      var id = jQ(this).attr("id");
+      show_case( id ) ;
+    },
+    function(){
+      jQ(this).removeClass("on");
+    }
+  );
+  
+  var idx = 0, play = timer = null;
+  function show_case( case_id ){
+    jQ(".on").removeClass("on");
+    var _this = jQ("#" + case_id);
+    _this.find(".icon_mp_case").addClass("on");
+
+    /*
+    if( timer != null )
+    {
+      clearInterval( timer );
+      timer = null;
+    }
+    */
+    var alpha = 0;
+    var path = jQ("#case_img_left").attr("src"), prefix = path.substr(0, path.lastIndexOf('/') + 1), name = _this.attr('name');
+    jQ("#case_img_left").attr("src", prefix + name + '_l.jpg');
+    jQ("#case_img_right").attr("src", prefix + name + '_r.jpg');
+    jQ("#case_arrow").css("left", _this.position().left + jQ(".icon_mp_case:first").width() / 2 );
+    jQ("#case_title").text( case_tips[name]['title'] );
+    jQ("#case_desc").text( case_tips[name]['desc'] );
+    idx = parseInt( case_id.split('_')[1] );
+
+    /*
+    timer = setInterval( function(){
+      alpha += 25;
+      alpha > 100 && ( alpha = 100 );
+      jQ(".mp_case_desc_c").css( "opacity", alpha / 100 );
+      jQ(".mp_case_desc_c").css( "filter", "alpha(opacity = " + alpha + ")" );
+      alpha == 100 && clearInterval( timer );
+    }, 20 );
+    */
+  };
+
+  function auto_play(){
+    play = setInterval(function(){
+      ++idx; 
+      idx >= case_tips_len && ( idx = 0 );
+      show_case( 'case_' + idx );
+    }, 1500);
+  };
+
+  jQ(".mp_case_mod_bd").hover(
+    function(){
+      clearInterval( play );
+      play = null;
+    },
+    function(){
+      if(play != null)
+      {
+        clearInterval( play );
+      }
+      auto_play();
+    }
+  );
+
+  (function _init(){
+    jQ(".mp_case_item").each(function(){
+      jQ(this).find('.mp_case_t').text( case_tips[jQ(this).attr('name')]['title'] );
+    });
+    jQ("#case_title").text( case_tips['yxbj']['title'] );
+    jQ("#case_desc").text( case_tips['yxbj']['desc'] );
+    if( WXM.Helpers.getCookie("remember_acct") )
+    {
+      jQ("#account").attr( "value", WXM.Helpers.getCookie("remember_acct") );
+    };
+    show_case( 'case_' + 0 );
+    auto_play();
+
+  })();
+})(jQuery);
+</script>
+
+</body>
+</html>
